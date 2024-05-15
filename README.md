@@ -1,4 +1,4 @@
-# Photo Gallery
+# Image Gallery
 
 ## Description
 Phopto Gallery is a simple web application created using HTML, CSS, and JavaScript. It features a gallery of photos showcasing famous footballers. 
