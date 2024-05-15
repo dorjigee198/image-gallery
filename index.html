@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Photo Gallary of Footballers</h2>
+      
+        
+        <div class="gallery">
+          
+          <div class="thumbnail">
+            <img src="Images/2.jpeg" alt="#" onclick="openModal('Images/2.jpegg', 'Neymar')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/3.jpeg" alt="#" onclick="openModal('Images/3.jpeg', 'Vini')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/4.jpeg" alt="#" onclick="openModal('Images/4.jpeg', 'Messi')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/5.jpeg" alt="#" onclick="openModal('Images/5.jpeg', 'Ronaldo')">
+          </div>
+          
+          <div class="thumbnail">
+            <img src="Images/7.jpeg" alt="#" onclick="openModal('Images/7.jpeg', 'David')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/8.jpeg" alt="#" onclick="openModal('Images/8.jpeg', 'Henry')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/9.jpeg" alt="#" onclick="openModal('Images/9.jpeg', 'Vardy')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/10.jpeg" alt="#" onclick="openModal('Images/10.jpeg', 'Mane')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/1.jpg" alt="#" onclick="openModal('Images/1.jpg', 'Menamino')">
+          </div>
+          <div class="thumbnail">
+            <img src="Images/12.jpeg" alt="#" onclick="openModal('Images/12.jpeg', 'jude')">
+          </div>
+          
+        </div>
+      
+       
+        <div class="lightbox" id="lightbox">
+          <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <img id="modal-img" src="" alt="">
+          </div>
+        </div>
+      </div>
+      
+
+<script src="script.js"></script>
+
+</body>
+</html>
