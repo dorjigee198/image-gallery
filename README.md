@@ -24,7 +24,7 @@ To run the Phopto Gallery project on your local machine, follow these steps:
 - Make sure you have JavaScript enabled in your browser to experience the interactive features of the gallery.
 
 ## Credits
-- This project was created by [Dorji Wangchuk].
+- This project is created by [Dorji Wangchuk].
 
 
 
